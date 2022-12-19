@@ -1,0 +1,108 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+}
+
+.card1 {
+  margin: 3rem;
+  height: auto;
+  width: 20vw;
+
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.538);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card2 {
+  margin: 3rem;
+  height: auto;
+  width: 20vw;
+
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.538);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 16px 0 16px 0;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card3 {
+  margin: 3rem;
+  height: auto;
+  width: 20vw;
+
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.538);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.card1 img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 16px 16px 0 0;
+}
+
+.card2 img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 16px 0 16px 0;
+}
+
+.card3 img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.card1 .card_image {
+  width: 20vw;
+  height: 30vh;
+}
+
+.card1 .card_heading {
+  text-align: center;
+  font-size: 24px;
+}
+
+.card1 .card_content {
+  padding: 1rem;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.card2 .card_image {
+  width: 20vw;
+  height: 30vh;
+}
+
+.card2 .card_heading {
+  text-align: center;
+  font-size: 24px;
+}
+
+.card2 .card_content {
+  padding: 1rem;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.card3 .card_image {
+  width: 20vw;
+  height: 30vh;
+}
+
+.card3 .card_heading {
+  text-align: center;
+  font-size: 24px;
+}
+
+.card3 .card_content {
+  padding: 1rem;
+  font-size: 18px;
+  text-align: justify;
+}
